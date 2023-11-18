@@ -1,43 +1,103 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- <script src="https://cdn.tailwindcss.com"></script> -->
-  <link rel="stylesheet" href="css/tailwind.css">
-</head>
-<body class="bg-slate-300 sm:bg-red-400 md:bg-white-500 lg:bg-purple-500">
-<br class="font-mono">
-  <h1 class="hover:font-sans text-sm">font sans</h1>
-  <h1 class="font-serif text-xl font-black"> font serif</h1>
-  <h1 class="font-mono text-2xl italic"> font mono</h1>
-  //font weight
-  <h1 class="font-bold"> font bold</h1>
-  <h1 class="font-extrabold"> font extrabold</h1>
-  <h1 class="font-black"> font black</h1>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tailwind Css Practice</title>
+    <link rel="stylesheet" href="css/tailwind.css" />
+  </head>
+  <body>
+    <div class="bg-blue-100 min-h-screen py-20">
+      <h1 class="text-2xl text-center font-bold pb-10">
+        <span class="text-blue-500"> Our </span> Process
+      </h1>
 
-  // letter spacing
-  <h1 class="tracking-tighter"> tracking tighter</h1>
-  <h1 class="tracking-widest"> tracking tight</h1>
+      <div class="max-w-5xl mx-auto flex flex-col gap-4">
+        <div class="flex gap-5">
+          <div class="header">
+            <img src="img/image_1.png" alt="" class="mx-auto" />
+          </div>
 
-  // line height
-  <h1 class="leading-2"> leading none</h1>
-  <h1 class="leading-6 decoration-gray-700"> leading tight</h1>
-  <p class="line-clamp-9 capitalize">Nulla dolor velit adipisicing duis excepteur esse  in duis nostrud occaecat mollit incididunt deserunt sunt.</p>
-</br>
-  <p class="underline decoration-sky-500">Test under line</p>
-</br>
-  <p class="overline decoration-blue-500">Test overline line</p>
-  <p class="line-through decoration-red-500">Test under line</p>
+          <div class="bg-white p-4 border border-blue-300 rounded-xl">
+            <h1 class="font-bold text-xl">1. Create Your Profile</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia
+              omnis delectus, quos autem dolorum facilis aspernatur quis impedit
+              magnam id corporis at assumenda asperiores rerum.
+            </p>
+          </div>
+        </div>
 
-  <!-- text transform -->
-  <h1 class="uppercase">Upper case</h1>
-  <h1 class="lowercase">lower case</h1>
-  <h1 class="capitalize m-5">lower case</h1>
+        <!-- 2nd items -->
+        <div class="flex gap-5">
+          <div class="w-[380px] flex justify-end">
+            <div class="header">
+              <img src="img/image_1.png" alt="" class="mx-auto" />
+            </div>
+          </div>
 
-  <!-- border -->
-  <p class="w-20 border-2 rounded-full text-center border-blue-500 border-dotted">Border</p>
+          <div class="bg-white p-4 border border-blue-300 rounded-xl">
+            <h1 class="font-bold text-xl">1. Create Your Profile</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia
+              omnis delectus, quos autem dolorum facilis aspernatur quis impedit
+              magnam id corporis at assumenda asperiores rerum.
+            </p>
+          </div>
+        </div>
 
-  <button class="btn">Nasim</button>
-</body>
+        <!-- 3rd items -->
+        <div class="flex gap-5">
+          <div class="w-[550px] flex justify-end">
+            <div class="header">
+              <img src="img/image_1.png" alt="" class="mx-auto" />
+            </div>
+          </div>
+
+          <div class="bg-white p-4 border border-blue-300 rounded-xl">
+            <h1 class="font-bold text-xl">1. Create Your Profile</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia
+              omnis delectus, quos autem dolorum facilis aspernatur quis impedit
+              magnam id corporis at assumenda asperiores rerum.
+            </p>
+          </div>
+        </div>
+
+        <!-- 4th items -->
+        <div class="flex gap-5">
+          <div class="w-[380px] flex justify-end">
+            <div class="header">
+              <img src="img/image_1.png" alt="" class="mx-auto" />
+            </div>
+          </div>
+
+          <div class="bg-white p-4 border border-blue-300 rounded-xl">
+            <h1 class="font-bold text-xl">1. Create Your Profile</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia
+              omnis delectus, quos autem dolorum facilis aspernatur quis impedit
+              magnam id corporis at assumenda asperiores rerum.
+            </p>
+          </div>
+        </div>
+
+        <!-- 5th items -->
+        <div class="flex gap-5">
+          <div class="header">
+            <img src="img/image_1.png" alt="" class="mx-auto" />
+          </div>
+
+          <div class="bg-white p-4 border border-blue-300 rounded-xl">
+            <h1 class="font-bold text-xl">1. Create Your Profile</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia
+              omnis delectus, quos autem dolorum facilis aspernatur quis impedit
+              magnam id corporis at assumenda asperiores rerum.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>

@@ -3,6 +3,6 @@
 @tailwind utilities;
 
 /* Path: css/custom.css */
-.btn {
-  @apply bg-blue-500 text-white w-24 rounded-full 
+.header {
+  @apply w-[110px] h-[110px] bg-white p-4 border border-blue-300 rounded-xl flex items-center
 }
