@@ -4,5 +4,8 @@
 
 /* Path: css/custom.css */
 .header {
-  @apply w-[110px] h-[110px] bg-white p-4 border border-blue-300 rounded-xl flex items-center
+  @apply w-full md:w-[110px] h-[110px] bg-white p-4 border border-blue-300 rounded-xl flex items-center
+}
+.item_main {
+  @apply flex gap-5 flex-col md:flex-row;
 }
